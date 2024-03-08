@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.fdb-block {
+	padding: 30px 0;
+}
+* {
+	font-family: "Poppins", sans-serif;
+}
+:root {
+	--primary-Color: #00bea1;
+	--secondary-Color: ;
+	--text-Color: #232323;
+	--alert-Color: #0099ff;
+	--success-Color: #97ddd2;
+	--warning-Color: #ee8800;
+	--error-Color: #fe514c;
+	--grey-Color: #e5e7eb;
+	--black-Color: #060606;
+	--main-Background-Color: #ffffff;
+	--secondary-Background-Color: ;
+	--secondary-Font: "Montserrat", sans-serif;
+	--button-padding: 13px 30px;
+	--button-border-radius: 5px;
+	--button-font-weight: 500;
+	--heading: 35px;
+	--heading-two: 25px;
+}
+
+.headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link {
+	color: var(--text-Color);
+}
+.headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link:focus,
+.headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link:hover {
+	color: var(--primary-Color);
+}
+.abouth66a519b827a7d261 .searchBtn {
+	background-color: var(--primary-Color);
+	border-radius: var(--button-border-radius);
+	font-weight: var(--button-font-weight);
+	padding: var(--button-padding);
+}
+.abouth66a519b827a7d261 .DescriptionHeading {
+	font-size: 40px;
+	color: var(--text-Color);
+}
+.workw8b69b68110aa8e40 .badge {
+	background-color: var(--grey-Color);
+	color: var(--primary-Color);
+}
+.workw8b69b68110aa8e40
+	.btn-outline-success:not(:disabled):not(.disabled):active,
+.workw8b69b68110aa8e40 .btn-outline-success:hover {
+	color: var(--main-Background-Color);
+	background-color: #00bea1;
+	border-color: #00bea1;
+}
+.funtushftac0ssp3mu h1 {
+	font-size: var(--heading);
+}
+.funtushftac0ssp3mu h3 {
+	font-size: var(--heading-two);
+	font-weight: 400;
+	margin-top: 10px;
+}
+.testimonialcohi0ajeo7e {
+	padding: 7rem;
+}
+.cabrinacoey8gebtas .btn-primary{
+    background-color: var(--primary-Color);
+	border-radius: var(--button-border-radius);
+	font-weight: var(--button-font-weight);
+	padding: var(--button-padding);
+}
+.fingerftg80mqpach a{
+    color: var(--main-Background-Color);
+    font-weight: var(--button-font-weight);
+}
