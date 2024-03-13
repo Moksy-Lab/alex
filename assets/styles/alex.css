@@ -25,7 +25,7 @@
 	--heading: 35px;
 	--heading-two: 25px;
 }
-
+/*headerfqwhkqilkzf*/
 .headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link {
 	color: var(--text-Color);
 }
@@ -33,6 +33,7 @@
 .headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link:hover {
 	color: var(--primary-Color);
 }
+/*abouth66a519b827a7d261*/
 .abouth66a519b827a7d261 .searchBtn {
 	background-color: var(--primary-Color);
 	border-radius: var(--button-border-radius);
@@ -43,34 +44,59 @@
 	font-size: 40px;
 	color: var(--text-Color);
 }
+/*workw8b69b68110aa8e40*/
 .workw8b69b68110aa8e40 .badge {
 	background-color: var(--grey-Color);
 	color: var(--primary-Color);
 }
-.workw8b69b68110aa8e40
-	.btn-outline-success:not(:disabled):not(.disabled):active,
+.workw8b69b68110aa8e40 .btn-outline-success {
+	color: var(--primary-Color);
+    border-color: var(--primary-Color);
+}
+.workw8b69b68110aa8e40 .btn-outline-success:not(:disabled):not(.disabled):active,
 .workw8b69b68110aa8e40 .btn-outline-success:hover {
 	color: var(--main-Background-Color);
-	background-color: #00bea1;
-	border-color: #00bea1;
+	background-color: var(--primary-Color);
+	border-color: var(--primary-Color);
 }
+/*funtushftac0ssp3mu*/
 .funtushftac0ssp3mu h1 {
 	font-size: var(--heading);
 }
 .funtushftac0ssp3mu h3 {
 	font-size: var(--heading-two);
-	font-weight: 400;
 	margin-top: 10px;
 }
+.funtushftac0ssp3mu strong {
+    font-weight: 400;
+}
+/*testimonialcohi0ajeo7e*/
 .testimonialcohi0ajeo7e {
 	padding: 7rem;
 }
-.cabrinacoey8gebtas .btn-primary{
+/*c617bbc778c75015*/
+.c617bbc778c75015 h3{
+    font-size: var(--heading);
+}
+
+
+/*cabrinacoey8gebtas*/
+.cabrinacoey8gebtas .btn-primary,
+.cabrinacoey8gebtas .btn-primary:not(:disabled):not(.disabled):active{
     background-color: var(--primary-Color);
 	border-radius: var(--button-border-radius);
 	font-weight: var(--button-font-weight);
 	padding: var(--button-padding);
+    border: var(--primary-Color);
 }
+.cabrinacoey8gebtas{
+    margin-top: 50px;
+}
+/*quoteq50b1c56df5d4596e*/
+.quoteq50b1c56df5d4596e .btn-primary:after {
+    background: linear-gradient(45deg, var(--alert-Color) 0%, var(--primary-Color) 60%)
+}
+/*fingerftg80mqpach*/
 .fingerftg80mqpach a{
     color: var(--main-Background-Color);
     font-weight: var(--button-font-weight);
