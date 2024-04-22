@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-.fdb-block {
-	padding: 30px 0;
-}
 * {
 	font-family: "Poppins", sans-serif;
 }
@@ -22,8 +19,16 @@
 	--button-padding: 13px 30px;
 	--button-border-radius: 5px;
 	--button-font-weight: 500;
-	--heading: 35px;
-	--heading-two: 25px;
+    --logo-border-radius: 15px;
+    --jumbotron-padding: 30px 16px;
+    --section-padding:30px 0px;
+    --heading:60px;
+	--heading-large: 35px;
+    --heading-medium: 25px;
+    --paragraph: 18px;
+}
+.fdb-block {
+    padding: 0rem 0;
 }
 /*headerfqwhkqilkzf*/
 .headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link {
@@ -33,6 +38,10 @@
 .headerfqwhkqilkzf .navbar-light .navbar-nav .nav-link:hover {
 	color: var(--primary-Color);
 }
+.headerfqwhkqilkzf .logo {
+    max-height: 60px;
+    border-radius: var(--logo-border-radius);
+}
 /*abouth66a519b827a7d261*/
 .abouth66a519b827a7d261 .searchBtn {
 	background-color: var(--primary-Color);
@@ -41,23 +50,35 @@
 	padding: var(--button-padding);
 }
 .abouth66a519b827a7d261 .DescriptionHeading {
-	font-size: 40px;
+	font-size: var(--heading);
 	color: var(--text-Color);
+}
+.abouth66a519b827a7d261 .DescriptionPara{
+    font-size: var(--paragraph);
+    color: var(--text-Color);
 }
 /*workw8b69b68110aa8e40*/
 .workw8b69b68110aa8e40 .badge {
 	background-color: var(--grey-Color);
 	color: var(--primary-Color);
+    font-size: 16px;
 }
 .workw8b69b68110aa8e40 .btn-outline-success {
 	color: var(--primary-Color);
     border-color: var(--primary-Color);
+    font-size: 16px;
 }
 .workw8b69b68110aa8e40 .btn-outline-success:not(:disabled):not(.disabled):active,
 .workw8b69b68110aa8e40 .btn-outline-success:hover {
 	color: var(--main-Background-Color);
 	background-color: var(--primary-Color);
 	border-color: var(--primary-Color);
+}
+.workw8b69b68110aa8e40 .lead{
+    font-size: var(--heading-medium);
+}
+.workw8b69b68110aa8e40 .para-custom-class{
+    font-size: var(--paragraph);
 }
 /*funtushftac0ssp3mu*/
 .funtushftac0ssp3mu h1 {
