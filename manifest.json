@@ -1,0 +1,30 @@
+{
+    "name": "alex",
+    "description": "Alex represents a contemporary e-learning static website template built with cutting-edge technologies. This template places a strong emphasis on design, offering an aesthetically captivating and engaging platform for hosting educational content. Although it lacks functional elements, the template sets the stage for creating an immersive learning environment that captivates learners and reinforces educational objectives.",
+    "short_name": "alex",
+    "start_url": "https://moksy.com/templates/alex",
+    "display": "standalone",
+    "background_color": "#f69435",
+    "theme_color": "#ff914f",
+    "orientation": "portrait",
+    "icons": [
+    {
+    "src": "/assets/images/branding/favicon/apple-icon-36x36.png",
+    "sizes": "36x36",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "/assets/images/branding/favicon/apple-icon-48x48.png",
+    "sizes": "48x48",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "/assets/images/branding/favicon/android-icon-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "purpose": "any maskable"
+    }
+    ]
+    }
